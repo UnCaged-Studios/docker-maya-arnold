@@ -1,6 +1,6 @@
 {
   "name": "docker-maya-arnold-release",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A docker image with headless maya and arnold renderer.",
   "private": true,
   "scripts": {
