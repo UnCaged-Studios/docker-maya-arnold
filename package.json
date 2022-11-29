@@ -1,0 +1,27 @@
+{
+  "name": "docker-maya-arnold-release",
+  "version": "0.0.0",
+  "description": "A docker image with headless maya and arnold renderer.",
+  "private": true,
+  "scripts": {
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnCaged-Studios/docker-maya-arnold.git"
+  },
+  "author": "perestom@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UnCaged-Studios/docker-maya-arnold/issues"
+  },
+  "homepage": "https://github.com/UnCaged-Studios/docker-maya-arnold#readme",
+  "devDependencies": {
+    "release-it": "^15.5.0"
+  },
+  "release-it": {
+    "github": {
+      "release": true
+    }
+  }
+}
