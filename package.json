@@ -4,7 +4,7 @@
   "description": "A docker image with headless maya and arnold renderer.",
   "private": true,
   "scripts": {
-    "release": "release-it"
+    "release-patch": "release-it --increment=patch"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,15 @@
     "release-it": "^15.5.0"
   },
   "release-it": {
+    "npm": {
+      "publish": false
+    },
+    "git": {
+      "push": true,
+      "commit": true,
+      "tag": true,
+      "requireBranch": "main"
+    },
     "github": {
       "release": true
     }
